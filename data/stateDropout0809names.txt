@@ -1,0 +1,120 @@
+NCES Common Core of Data State Dropout and Completion Data File: School Year 2008-09
+
+FILE NAME = sdr081a.txt, 2008-09 
+
+NVAR = 104
+
+NOBS = 59
+
+The file contains data for school year 2008–09 sorted by the Federal Information Processing Standards (FIPS) state code. 
+“AN” and “N” indicate alphanumeric and numeric data, respectively. Data presented in this release are available in two formats—
+SAS datasets (.sas7bdat) and tab-separated values text files (.txt). An asterisk (*) in the order column indicates that the field 
+has one explicit decimal place.
+
+
+Variable name	 Order		 Data type     Description
+                  
+FIPST                1           AN            Two Digit American National Standards Institute (ANSI) State Code
+SURVYEAR             2           AN            Year Corresponding to Survey Record
+STATENAME            3           AN            State Name
+TOTD9                4           N             Total Dropouts, Grade 9
+AMD9                 5           N             Dropouts, American Indian/Alaska Native, Grade 9
+ASD9                 6           N             Dropouts, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7), Grade 9
+HID9                 7           N             Dropouts, Hispanic, Grade 9
+BLD9                 8           N             Dropouts, Black, Grade 9
+WHD9                 9           N             Dropouts, White, Grade 9
+HPD9                10           N             Dropouts, Hawaiian Native/Pacific Islander, Grade 9
+TRD9                11           N             Dropouts, Two or more races, Grade 9
+TOTD10              12           N             Total Dropouts, Grade 10
+AMD10               13           N             Dropouts, American Indian/Alaska Native, Grade 10
+ASD10               14           N             Dropouts, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7), Grade 10
+HID10               15           N             Dropouts, Hispanic, Grade 10
+BLD10               16           N             Dropouts, Black, Grade 10
+WHD10               17           N             Dropouts, White, Grade 10
+HPD10               18           N             Dropouts, Hawaiian Native/Pacific Islander, Grade 10
+TRD10               19           N             Dropouts, Two or more races, Grade 10
+TOTD11              20           N             Total Dropouts, Grade 11
+AMD11               21           N             Dropouts, American Indian/Alaska Native, Grade 11
+ASD11               22           N             Dropouts, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7), Grade 11
+HID11               23           N             Dropouts, Hispanic, Grade 11
+BLD11               24           N             Dropouts, Black, Grade 11
+WHD11               25           N             Dropouts, White, Grade 11
+HPD11               26           N             Dropouts, Hawaiian Native/Pacific Islander, Grade 11
+TRD11               27           N             Dropouts, Two or more races, Grade 11
+TOTD12              28           N             Total Dropouts, Grade 12
+AMD12               29           N             Dropouts, American Indian/Alaska Native, Grade 12
+ASD12               30           N             Dropouts, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7), Grade 12
+HID12               31           N             Dropouts, Hispanic, Grade 12
+BLD12               32           N             Dropouts, Black, Grade 12
+WHD12               33           N             Dropouts, White, Grade 12
+HPD12               34           N             Dropouts, Hawaiian Native/Pacific Islander, Grade 12
+TRD12               35           N             Dropouts, Two or more races, Grade 12
+TOTD912             36           N             Total Dropouts, Grades 9-12
+TOTDAM              37           N             Dropouts, Grades 9-12, American Indian/Alaska Native
+TOTDAS              38           N             Dropouts, Grades 9-12, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7)
+TOTDHI              39           N             Dropouts, Grades 9-12, Hispanic
+TOTDBL              40           N             Dropouts, Grades 9-12, Black
+TOTDWH              41           N             Dropouts, Grades 9-12, White
+TOTDHP              42           N             Dropouts, Grades 9-12, Hawaiian Native/Pacific Islander
+TOTDTR              43           N             Dropouts, Grades 9-12, Two or more races
+G9                  44           N             Dropout Enrollment Base, Grade 9
+G10                 45           N             Dropout Enrollment Base, Grade 10
+G11                 46           N             Dropout Enrollment Base, Grade 11
+G12                 47           N             Dropout Enrollment Base, Grade 12
+EBS912              48           N             Dropout Enrollment Base, Grades 9-12
+EBSAM               49           N             Dropout Enrollment Base, Grades 9-12, American Indian/Alaska Native
+EBSAS               50           N             Dropout Enrollment Base, Grades 9-12, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7)
+EBSHI               51           N             Dropout Enrollment Base, Grades 9-12, Hispanic
+EBSBL               52           N             Dropout Enrollment Base, Grades 9-12, Black
+EBSWH               53           N             Dropout Enrollment Base, Grades 9-12, White
+EBSHP               54           N             Dropout Enrollment Base, Grades 9-12, Hawaiian Native/Pacific Islander
+EBSTR               55           N             Dropout Enrollment Base, Grades 9-12, Two or more races
+DRP9                56           N             Dropout Rate, Grade 9
+DRP10               57           N             Dropout Rate, Grade 10
+DRP11               58           N             Dropout Rate, Grade 11
+DRP12               59           N             Dropout Rate, Grade 12
+DRP912              60           N             Dropout Rate, Grades 9-12
+DRPAM               61           N             Dropout Rate, Grades 9-12, American Indian/Alaska Native
+DRPAS               62           N             Dropout Rate, Grades 9-12, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7)
+DRPHI               63           N             Dropout Rate, Grades 9-12, Hispanic
+DRPBL               64           N             Dropout Rate, Grades 9-12, Black
+DRPWH               65           N             Dropout Rate, Grades 9-12, White
+DRPHP               66           N             Dropout Rate, Grades 9-12, Hawaiian Native/Pacific Islander
+DRPTR               67           N             Dropout Rate, Grades 9-12, Two or more races
+TOTDPL              68           N             Total Diploma Count
+AMDPL               69           N             Diploma Count, American Indian/Alaska Native
+ASDPL               70           N             Diploma Count, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7)
+HIDPL               71           N             Diploma Count, Hispanic
+BLDPL               72           N             Diploma Count, Black
+WHDPL               73           N             Diploma Count, White
+HPDPL               74           N             Diploma Count, Hawaiian Native/Pacific Islander
+TRDPL               75           N             Diploma Count, Two or more races
+AFGEB               76           N             Total Averaged Freshman Graduation Rate (AFGR) Enrollment Base
+AFGEBAM             77           N             AFGR Enrollment Base, American Indian/Alaskan Native
+AFGEBAS             78           N             AFGR Enrollment Base, Asian/Hawaiian Native/Pacific
+AFGEBHI             79           N             AFGR Enrollment Base, Hispanic
+AFGEBBL             80           N             AFGR Enrollment Base, Black
+AFGEBWH             81           N             AFGR Enrollment Base, White
+AFGR                82           N             Total AFGR
+AFGRAM              83           N             AFGR, American Indian/Alaska Native
+AFGRAS              84           N             AFGR, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7)
+AFGRHI              85           N             AFGR, Hispanic
+AFGRBL              86           N             AFGR, Black
+AFGRWH              87           N             AFGR, White
+TOTOHC              88           N             Total Other High School Completion Certificate (OHC) Recipients
+AMOHC               89           N             OHC Recipients, American Indian/Alaska Native
+ASOHC               90           N             OHC Recipients, Asian/Hawaiian Native/Pacific Islander (5) or Asian (7)
+HIOHC               91           N             OHC Recipients, Hispanic
+BLOHC               92           N             OHC Recipients, Black
+WHOHC               93           N             OHC Recipients, White, non-Hispanic
+HPOHC               94           N             OHC Recipients, Hawaiian Native/Pacific Islander, non-Hispanic
+TROHC               95           N             OHC Recipients, Two or more races, non-Hispanic
+EQUIV               96           N             General Equivalency Diploma (GED) Recipients, Ages 16-19
+AMEQUIV             97           N             American Indian/Alaska Native GED Recipients, Ages 16-19
+ASEQUIV             98           N             Asian/Hawaiian Native/Pacific Islander (5) or Asian (7) GED Recipients, Ages 16-19
+HIEQUIV             99           N             Hispanic GED Recipients, Ages 16-19
+BLEQUIV            100           N             Black GED Recipients, Ages 16-19
+WHEQUIV            101           N             White GED Recipients, Ages 16-19
+HPEQUIV            102           N             Hawaiian Native/Pacific Islander GED Recipients, Ages 16-19
+TREQUIV            103           N             Two or more races GED Recipients, Ages 16-19
+RACECAT            104           N             Race/ethnicities categories indicator
